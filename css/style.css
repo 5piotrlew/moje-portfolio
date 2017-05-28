@@ -117,7 +117,7 @@ header#main-header .header-caption h2 {
     border-radius: 10px;
 }
 
-section {
+section#about {
     padding: 30px 80px;
 }
 
@@ -125,3 +125,11 @@ section {
     font-weight: 300;
     line-height: 24px;
 }
+
+section#skills{
+    
+}
+
+
+
+
