@@ -25,6 +25,15 @@ span {
     font-weight: 400;
 }
 
+h2 {
+    text-align: center;
+}
+
+.col-1-2 {
+    float: left;
+    width: 50%;
+}
+
 
 /* General styles - STOP*/
 
@@ -85,24 +94,34 @@ header#main-header .header-caption h1 {
 }
 
 header#main-header .header-caption h2 {
-    font-weight: 100;}
+    font-weight: 100;
+}
 
-#about{
+#about {
     background-color: #f9fcfe;
     overflow: hidden;
 }
 
-#about figure{
+#about figure {
     margin: 0;
-}
-#about figure img{
-    
-    
-    width: 100%;
-    
+    text-align: center;
+    -webkit-box-shadow: 7px -4px 12px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 7px -4px 12px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 7px -4px 12px 0px rgba(0, 0, 0, 0.75);
 }
 
-.col-1-2{
-float: left;
-width: 50%;
+#about figure img {
+    max-height: 350px;
+    max-width: 100%;
+    border: 10px solid #fff;
+    border-radius: 10px;
+}
+
+section {
+    padding: 30px 80px;
+}
+
+#about div p {
+    font-weight: 300;
+    line-height: 24px;
 }
