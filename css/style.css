@@ -1,0 +1,24 @@
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+
+body {
+    maring: 0 auto;
+}
+
+nav#menu{
+    background-color: #fff;    
+}
+
+nav#menu ul>li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+nav#menu ul>li a{    
+    text-decoration: none;
+    font-style: none;
+    color: black;    
+}
