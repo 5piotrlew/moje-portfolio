@@ -20,7 +20,10 @@ a {
     transition: all .3s;
 }
 
-
+span {
+    color: green;
+    font-weight: 400;
+}
 
 
 /* General styles - STOP*/
@@ -56,43 +59,50 @@ nav#menu ul>li a:hover {
     color: #291f1a;
 }
 
-
-
-header#main-header{
+header#main-header {
     color: #fff;
-    
     background-image: url(../img/header-background.jpg);
-    
     background-position: center;
     background-size: cover;
     height: 90vh;
     position: relative;
-   
-    }
+}
 
 header#main-header .header-caption {
-     font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     position: absolute;
     text-align: center;
     width: 100%;
     left: 0;
     top: 50%;
     right: 0;
-    transform: translateY(-50%);    
+    transform: translateY(-50%);
 }
 
-span {
-    color: green;
-    font-weight: 400;
-}
-
-header#main-header .header-caption h1{
+header#main-header .header-caption h1 {
     font-size: 4em;
     font-weight: 300;
+}
+
+header#main-header .header-caption h2 {
+    font-weight: 100;}
+
+#about{
+    background-color: red;
+    overflow: hidden;
+}
+
+#about figure{
+    margin: 0;
+}
+#about figure img{
+    
+    
+    width: 100%;
     
 }
 
-header#main-header .header-caption h2{
-    font-weight: 100;
+.col-1-2{
+float: left;
+width: 50%;
 }
-
