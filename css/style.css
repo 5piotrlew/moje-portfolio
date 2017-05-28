@@ -91,3 +91,8 @@ header#main-header .header-caption h1{
     font-weight: 300;
     
 }
+
+header#main-header .header-caption h2{
+    font-weight: 100;
+}
+
