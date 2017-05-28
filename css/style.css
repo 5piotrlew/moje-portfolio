@@ -3,6 +3,9 @@ font-family: 'Lato', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
 
+*{ 
+	box-sizing: border-box;
+}
 
 body {
     maring: 0 auto;
@@ -15,10 +18,31 @@ nav#menu{
 nav#menu ul>li{
     display: inline-block;
     padding: 0 20px;
+    list-style: none;
+    float: right;
 }
 
 nav#menu ul>li a{    
     text-decoration: none;
     font-style: none;
-    color: black;    
+    color: black;     
+}
+
+header#header img{
+    position: relative;
+}
+
+header#header>h1,p{
+    position: absolute;
+    
+    left: 50%;
+    padding: 2em 0;    
+}
+
+header#header>h1{
+    top: 40%;
+}
+
+header#header>p{
+    top: 50%;
 }
