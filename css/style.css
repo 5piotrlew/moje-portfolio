@@ -12,8 +12,13 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+}
+
 nav#menu{
     background-color: #fff;
+    opacity: 1;
     margin-left: 60%;
 }
 
@@ -26,7 +31,8 @@ nav#menu ul>li{
 nav#menu ul>li a{    
     text-decoration: none;
     font-style: none;
-    color: black;     
+    color: gray;  
+    opacity: 0.5;
 }
 
 header#header img{
@@ -34,18 +40,24 @@ header#header img{
 }
 
 header#header>h1,p{
-    position: absolute;    
-    left: 50%;
-    padding: 2em 0;    
+    
+    text-align: center;
+    padding: 2em 0; 
+    margin-bottom: 50px;
 }
 
 header#header>h1{
-    top: 40%;
-    left: 50%;
+    
+    font-size: 4em;
+}
+
+header#header>h1>span{
+    color: green;
 }
 
 header#header>p{
-    top: 50%;
-    left: 52%;
-    padding: 
+    
+    font-size: 2em;
 }
+
+
