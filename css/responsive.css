@@ -37,13 +37,30 @@ width: 49%;
         padding: 20px;
         text-align: right;
     }
-}
     
-@media (max-width: 640px){
-    #portfolio .portfolio-items .portfolio-item{ /* nie dziala ? SCIEZKA MUSI BYC IDENTYCZNA JAK W STYLE CSS !!! */
-        width: 100%;
+    header#main-header .header-caption {
+        padding: 10%;
     }
     
+/*    witek010@gmail.com*/
+    
+}
+    
+@media (max-width: 680px){
+    #portfolio .portfolio-items .portfolio-item{ /* nie dziala ? SCIEZKA MUSI BYC IDENTYCZNA JAK W STYLE CSS !!! */   
+        width: 300%;
+    }
+    
+    header#main-header .header-caption h1 {
+        font-size: 3em;
+    }
+    header#main-header .header-caption h2 {
+        font-size: 1.5em;
+    }
+    
+    #about div.col-1-2 {
+        width: 100%;
+    }
 }
     
 @media (max-width: 480px){
