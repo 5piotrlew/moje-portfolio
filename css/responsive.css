@@ -28,6 +28,15 @@ width: 49%;
     #menu #drop:checked + ul {
         display: block;
     }
+    
+/*    tworzymy liste jeden pod  drugim */
+    
+    #menu > ul > li {
+        display: block;
+        width: 100%;
+        padding: 20px;
+        text-align: right;
+    }
 }
     
 @media (max-width: 640px){
