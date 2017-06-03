@@ -186,4 +186,18 @@ section#skills div.icons figure {
     background-image: url(../img/portfolio4.jpg);
 }
 
+#portfolio .portfolio-items {
+    text-align: center;
+    font-size: 0;
+}
+
+#portfolio .portfolio-items .portfolio-item {
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    width: 33.3333%;
+    position: relative;
+}
 
