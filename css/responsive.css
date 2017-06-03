@@ -1,0 +1,23 @@
+@media (max-width: 1200px) { 
+    section#portfolio .portfolio-item{
+width: 49%;
+    } 
+    section#portfolio .portfolio-item:last-child{
+        width: 66.7%;
+    }
+}
+
+@media (max-width: 768px){
+    
+}
+    
+@media (max-width: 640px){
+  
+    
+}
+    
+@media (max-width: 480px){
+
+   
+    
+}
