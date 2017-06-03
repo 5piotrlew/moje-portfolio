@@ -127,6 +127,8 @@ section#about {
     line-height: 24px;
 }
 
+/* Section Skills Styles Start*/
+/*
 section#skills {
     border-top: 5px solid rgba(154, 154, 154, 0.25);
     padding-top: 5%;
@@ -149,7 +151,27 @@ section#skills div.icons figure {
     widows: 25%;
     text-align: center;
 }
+*/
 
+/* Section Skills Styles Stop*/
+
+#skills > p {
+    text-align: center;
+}
+
+#skills div#skills-icons {
+    text-align: center;
+}
+
+#skills #skills-icons figure {
+    display: inline-block;
+}
+
+#skills #skills-icons figure img {
+    margin-bottom: 15px;
+}
+
+/*portfolio*/
 
 
 
