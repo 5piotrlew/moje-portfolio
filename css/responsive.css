@@ -19,6 +19,15 @@ width: 49%;
         border: none;
         text-align: right;
     }
+    /* ukrywamy elementy menu i na klik rozwijamy liste */
+    
+    #menu ul {
+        display: none;
+    }
+    
+    #menu #drop:checked + ul {
+        display: block;
+    }
 }
     
 @media (max-width: 640px){
