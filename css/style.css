@@ -211,6 +211,25 @@ section#skills div.icons figure {
     font-size: initial;
 }
 
+/* hover dziala na dalsze elementy bo bez hovera wszystko jest przezroczyste gosciu */
+
 #portfolio .portfolio-items .portfolio-item .item-mask:hover {
     opacity: 1;
+}
+
+#portfolio .portfolio-items .portfolio-item .item-mask .item-content {
+    height: 330px;
+    border: 1px solid #fff;
+    margin: 10px;
+    position: relative;
+}
+
+#portfolio .portfolio-items .portfolio-item .item-mask .item-content .item-content-inner {
+    color: #fff;
+    position: absolute;
+    top: 50%; /* pozycjonuje 50 procent od relatywnej item-content */
+    transform: translateY(-50%);
+    right: 0;
+    left: 0;
+    padding: 5px;
 }
