@@ -45,6 +45,10 @@ nav#menu {
     width: 100%;
 }
 
+#menu .toggle, #drop {
+    display: none;
+}
+
 nav#menu>ul {
     margin: 0;
     text-align: right;

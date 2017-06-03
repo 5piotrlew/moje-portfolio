@@ -8,11 +8,23 @@ width: 49%;
 }
 
 @media (max-width: 768px){
-    
+    #menu .toggle{
+        display: block;
+        background-color: #fff;
+        padding: 0 20px;
+        color: #1ac056;
+        font-size: 20px;
+        line-height: 60px;
+        text-decoration: none;
+        border: none;
+        text-align: right;
+    }
 }
     
 @media (max-width: 640px){
-  
+    #portfolio .portfolio-items .portfolio-item{ /* nie dziala ? SCIEZKA MUSI BYC IDENTYCZNA JAK W STYLE CSS !!! */
+        width: 100%;
+    }
     
 }
     
