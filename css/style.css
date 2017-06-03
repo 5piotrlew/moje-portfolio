@@ -119,15 +119,35 @@ header#main-header .header-caption h2 {
 
 section#about {
     padding: 30px 80px;
+    padding-bottom: 10%;
 }
 
-#about div p {
+#about div.col-1-2 p {
     font-weight: 300;
     line-height: 24px;
 }
 
-section#skills{
+section#skills {
+    border-top: 5px solid rgba(154, 154, 154, 0.25);
+    padding-top: 5%;
+    margin-bottom: 35%;
     
+}
+
+section#skills h2 + p {
+    text-align: center;
+}
+
+section#skills div.icons {
+    width: 100%;
+    padding-left: 30%;
+
+}
+
+section#skills div.icons figure {
+    float: left;
+    widows: 25%;
+    text-align: center;
 }
 
 
